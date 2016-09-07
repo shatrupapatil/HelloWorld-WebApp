@@ -8,6 +8,8 @@ import os
 import platform
 import shutil
 
+
+
 def doesItExist(command, name, sectionNumber ) :
 	'''handle duplicates due to similar spellings, avoid using regular expressions'''
 	result, err, exitcode = call(command)
